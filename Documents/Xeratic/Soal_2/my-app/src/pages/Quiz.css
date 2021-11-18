@@ -1,0 +1,42 @@
+body {
+    width: 100%;
+    margin: 50px
+}
+
+.card-header {
+    background-color: grey;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-body li {
+    list-style-type: square;
+    margin: 5px;
+}
+
+.quiz-box {
+    width: 250px;
+}
+
+.btn {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.btn-next, .btn-prev {
+    background-color:blue;
+    color:white;
+    padding:5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.card-body {
+    border: 1px solid;
+}
